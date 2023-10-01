@@ -26,82 +26,627 @@
     }
   ],
   
-  "clientes": [
+  
+  "logo": [
     {
       "id": 1,
-      "nome": "João da Silva",
-      "telefone": "123456789",
-      "endereco": "Rua dos Animais, 123"
-    },
-    {
-      "id": 2,
-      "nome": "Maria Souza",
-      "telefone": "987654321",
-      "endereco": "Avenida dos Pets, 456"
+      "title": "MiniStore.",
+      "link": "/"
     }
   ],
-  "animais": [
+
+  "nav-item": [
     {
       "id": 1,
-      "nome": "Rex",
-      "especie": "Cachorro",
-      "raca": "Labrador",
-      "idade": 3,
-      "cliente_id": 1
-    },
-    {
-      "id": 2,
-      "nome": "Mimi",
-      "especie": "Gato",
-      "raca": "Siamês",
-      "idade": 2,
-      "cliente_id": 1
+      "navList": "Home",
+      "navLink": "/"
     },
     {
       "id": 3,
-      "nome": "Lola",
-      "especie": "Cachorro",
-      "raca": "Poodle",
-      "idade": 5,
-      "cliente_id": 2
+      "navList": "Products",
+      "navLink": "/products"
     },
     {
       "id": 4,
-      "nome": "Nina",
-      "especie": "Gato",
-      "raca": "Persa",
-      "idade": 1,
-      "cliente_id": 2
+      "navList": "Cart",
+      "navLink": "/cart"
+    },
+    {
+      "id": 5,
+      "navList": "About",
+      "navLink": "/about"
     }
   ],
-  "produtos": [
+
+  "slider1": [
     {
       "id": 1,
-      "nome": "Ração para cães",
-      "marca": "Premier",
-      "preco": 50.99,
-      "quantidade_estoque": 100
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/sld1-01.png",
+      "alt": "slider1-01",
+      "btn": "SHOP PRODUCT",
+      "description": "YOUR PRODUCTS ARE GREAT."
     },
     {
       "id": 2,
-      "nome": "Areia sanitária para gatos",
-      "marca": "Chalesco",
-      "preco": 25.99,
-      "quantidade_estoque": 50
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/sld1-02.png",
+      "alt": "slider1-02",
+      "btn": "SHOP PRODUCT",
+      "description": "YOUR PRODUCTS ARE GREAT."
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/sld1-03.png",
+      "alt": "slider1-03",
+      "btn": "SHOP PRODUCT",
+      "description": "YOUR PRODUCTS ARE GREAT."
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/sld1-04.png",
+      "alt": "slider1-04",
+      "btn": "SHOP PRODUCT",
+      "description": "YOUR PRODUCTS ARE GREAT."
     }
   ],
-  "servicos": [
+
+  "features": [
     {
       "id": 1,
-      "nome": "Banho e tosa",
-      "preco": 80.0,
-      "duracao_minutos": 120
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/00f5e7dbf3ba8e1b0f7c0fc0f2e96c1a912cf0f5/assets/react-mobile-shop/Images/feature1svg.svg",
+      "alt": "feature1",
+      "title": "Free delivery",
+      "description": "Consectetur adipi elit lorem ipsum dolor sit amet."
     },
     {
       "id": 2,
-      "nome": "Consulta veterinária",
-      "preco": 120.0,
-      "duracao_minutos": 60
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/00f5e7dbf3ba8e1b0f7c0fc0f2e96c1a912cf0f5/assets/react-mobile-shop/Images/feature2.svg",
+      "alt": "feature2",
+      "title": "Quality guarantee",
+      "description": "Dolor sit amet orem ipsu mcons ectetur adipi elit."
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/00f5e7dbf3ba8e1b0f7c0fc0f2e96c1a912cf0f5/assets/react-mobile-shop/Images/feature3.svg",
+      "alt": "Daily offers",
+      "title": "SHOP PRODUCT",
+      "description": "Amet consectetur adipi elit loreme ipsum dolor sit."
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/00f5e7dbf3ba8e1b0f7c0fc0f2e96c1a912cf0f5/assets/react-mobile-shop/Images/feature4.svg",
+      "alt": "feature4",
+      "title": "100% secure payment",
+      "description": "Rem Lopsum dolor sit amet, consectetur adipi elit."
+    }
+  ],
+
+  "slider2": [
+    {
+      "id": 0,
+      "head": "MOBILE PRODUCTS",
+      "link": "GO TO SHOP"
+    },
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/15-3.png",
+      "alt": "IPHONE-15",
+      "name": "IPHONE 15",
+      "price": "$1480"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/13-4.png",
+      "alt": "IPHONE-13",
+      "name": "IPHONE 13",
+      "price": "$980"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/11.png",
+      "alt": "IPHONE-11",
+      "name": "IPHONE 11",
+      "price": "$870"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/10.png",
+      "alt": "IPHONE-10",
+      "name": "IPHONE 10",
+      "price": "$880"
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/13.png",
+      "alt": "IPHONE-13",
+      "name": "IPHONE 13",
+      "price": "$900"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/8.png",
+      "alt": "IPHONE-8",
+      "name": "IPHONE 8",
+      "price": "$650"
+    },
+    {
+      "id": 7,
+
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/14.png",
+      "alt": "IPHONE-14",
+      "name": "IPHONE 14",
+      "price": "$1230"
+    },
+    {
+      "id": 8,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/15-2.png",
+      "alt": "IPHONE-15",
+      "name": "IPHONE 15",
+      "price": "$1500"
+    }
+  ],
+
+  "slider3": [
+    {
+      "id": 0,
+      "head": "Smart Watches",
+      "link": "GO TO SHOP"
+    },
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w1.png",
+      "alt": "Pink-watch",
+      "name": "Pink watch",
+      "price": "$870"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w2.png",
+      "alt": "Heavy-watch",
+      "name": "Heavy watch",
+      "price": "$680"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w3.png",
+      "alt": "spotted-watch",
+      "name": "spotted watch",
+      "price": "$750"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w4.png",
+      "alt": "black-watch",
+      "name": "black watch",
+      "price": "$650"
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w1.png",
+      "alt": "Pink-watch",
+      "name": "Pink watch",
+      "price": "$870"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w4.png",
+      "alt": "black-watch",
+      "name": "black watch",
+      "price": "$650"
+    },
+    {
+      "id": 7,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w3.png",
+      "alt": "spotted-watch",
+      "name": "spotted watch",
+      "price": "$750"
+    },
+    {
+      "id": 8,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w2.png",
+      "alt": "Heavy-watch",
+      "name": "Heavy watch",
+      "price": "$680"
+    }
+  ],
+
+  "sale": [
+    {
+      "id": 1,
+      "head": "---- 10% OFF",
+      "title": "New year sale",
+      "btn": "SHOP SALE",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/saleImg.png",
+      "alt": "Mobile"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 0,
+      "head": "Latest Posts",
+      "link": "Read blogs"
+    },
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/post1.png",
+      "alt": "img1",
+      "dateName": "feb 22, 2023  -  Gadgets",
+      "description": "Get some cool gadgets in 2023"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/post2.png",
+      "alt": "img2",
+      "dateName": "feb 22, 2023  -  technology",
+      "description": "TECHNOLOGY HACK YOU WON’T GET"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/post3.png",
+      "alt": "img3",
+      "dateName": "feb 22, 2023  -  camera",
+      "description": "toP 10 SMALL cAMERA IN THE WORLD"
+    }
+  ],
+
+  "slider4": [
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/posts.png",
+      "alt": "slider4-1"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/posts.png",
+      "alt": "slider4-2"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/posts.png",
+      "alt": "slider4-3"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/posts.png",
+      "alt": "slider4-4"
+    }
+  ],
+
+  "subs": [
+    {
+      "id": 1,
+      "title": "Subscribe Us now",
+      "uTitle": "Get latest news, updates and deals directly mailed to your inbox.",
+      "placeholder": "Your email address here",
+      "btn": "Subscribe"
+    }
+  ],
+
+  "insta": [
+    {
+      "id": 0,
+      "head": "Shop our insta"
+    },
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/insta1.png",
+      "alt": "img1"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/insta2.png",
+      "alt": "img2"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/insta3.png",
+      "alt": "img3"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/insta4.png",
+      "alt": "img3"
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/insta5.png",
+      "alt": "img5"
+    }
+  ],
+
+  "footer": [
+    {
+      "id": 0,
+      "head": "MiniStore.",
+      "txt": "Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla."
+    },
+    {
+      "id": 1,
+      "link": "https://facebook.com",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/3eb28a608b392fd0dce2b7eeb91094caf3b81327/assets/react-mobile-shop/Images/footer-fb.svg",
+      "alt": "FaceBook"
+    },
+    {
+      "id": 2,
+      "link": "https://instagram.com",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/3eb28a608b392fd0dce2b7eeb91094caf3b81327/assets/react-mobile-shop/Images/footer-inst.svg",
+      "alt": "instagram"
+    },
+    {
+      "id": 3,
+      "link": "https://linkedin.com",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/3eb28a608b392fd0dce2b7eeb91094caf3b81327/assets/react-mobile-shop/Images/footer-link.svg",
+      "alt": "linkedin"
+    },
+    {
+      "id": 4,
+      "link": "https://twitter.com",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/3eb28a608b392fd0dce2b7eeb91094caf3b81327/assets/react-mobile-shop/Images/footer-twt.svg",
+      "alt": "twitter"
+    },
+    {
+      "id": 5,
+      "link": "https://youtube.com",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/3eb28a608b392fd0dce2b7eeb91094caf3b81327/assets/react-mobile-shop/Images/footer-you.svg",
+      "alt": "youtube"
+    },
+    {
+      "id": 10,
+      "title": "Quick links"
+    },
+    {
+      "id": 11,
+      "link": "https://youtube.com",
+      "txt": "Home"
+    },
+    {
+      "id": 12,
+      "link": "https://youtube.com",
+      "txt": "About"
+    },
+    {
+      "id": 13,
+      "link": "https://youtube.com",
+      "txt": "Shop"
+    },
+    {
+      "id": 14,
+      "link": "https://youtube.com",
+      "txt": "Blogs"
+    },
+    {
+      "id": 15,
+      "link": "https://youtube.com",
+      "txt": "Contact"
+    },
+    {
+      "id": 20,
+      "title": "Help & info"
+    },
+    {
+      "id": 21,
+      "link": "https://youtube.com",
+      "txt": "Track Your Order"
+    },
+    {
+      "id": 22,
+      "link": "https://youtube.com",
+      "txt": "Returns policies"
+    },
+    {
+      "id": 23,
+      "link": "https://youtube.com",
+      "txt": "Shipping + Delivery "
+    },
+    {
+      "id": 24,
+      "link": "https://youtube.com",
+      "txt": "Contact Us"
+    },
+    {
+      "id": 25,
+      "link": "https://youtube.com",
+      "txt": "Faqs"
+    },
+    {
+      "id": 30,
+      "title": "Contact us"
+    },
+    {
+      "id": 31,
+      "txt": "Do you have any queries or suggestions?",
+      "link": "yourinfo@gmail.com"
+    },
+    {
+      "id": 32,
+      "link": "+55 111 222 333 44",
+      "txt": "If you need support? Just give us a call."
+    },
+    {
+      "id": 40,
+      "title": "We ship with:",
+      "url1": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/777a1e55710d82c18e4c302f95da9e1a77e32f77/assets/react-mobile-shop/Images/footer-dhl.svg",
+      "alt1": "DHL",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/777a1e55710d82c18e4c302f95da9e1a77e32f77/assets/react-mobile-shop/Images/footer-arct.svg",
+      "alt2": "Arct"
+    },
+    {
+      "id": 41,
+      "title": "Payment options:",
+      "url1": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/777a1e55710d82c18e4c302f95da9e1a77e32f77/assets/react-mobile-shop/Images/footer-visa.svg",
+      "alt1": "Visa",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/777a1e55710d82c18e4c302f95da9e1a77e32f77/assets/react-mobile-shop/Images/footer-master.svg",
+      "alt2": "Master",
+      "url3": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/777a1e55710d82c18e4c302f95da9e1a77e32f77/assets/react-mobile-shop/Images/footer-paypal.svg",
+      "alt3": "PaypAl"
+    },
+    {
+      "id": 42,
+      "txt": "© Copyright 2023 MiniStore. Web Developer by",
+      "span": "Mohsen Ghandali",
+      "link": "https://www.linkedin.com/in/mohsen-ghandali-47a1aa224/"
+    }
+  ],
+  "found": [
+    {
+      "id": 1,
+      "title": "How was Ministore Found?",
+      "txt": "Risus augue curabitur diam senectus congue velit et. Sed vitae metus nibh sit era. Nulla adipiscing pharetra pellentesque maecenas odio eros at. Et libero vulputate amet duis erat volutpat vitae eget. Sed vitae metus nibh sit era. Nulla adipiscing pharetra pellentesque maecenas odio eros at. Quam libero etiam et in ac at quis.Sed vitae metus nibh sit era. Nulla adipiscing pharetra pellentesque maecenas odio eros at. Et libero vulputate amet duis erat volutpat vitae eget. Quam libero etiam et in ac at quis. Risus augue curabitur diam senectus congue velit et. ",
+      "btn": "Shop Our store",
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/f7a2c4bb81cddbf4ad0f604b84d10b85538eb7ea/assets/react-mobile-shop/Images/video.png",
+      "alt": "video Place"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/15-3.png",
+      "alt": "IPHONE-15",
+      "name": "IPHONE 15",
+      "price": "1480",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/13-4.png",
+      "alt": "IPHONE-13",
+      "name": "IPHONE 13",
+      "price": "980",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/11.png",
+      "alt": "IPHONE-11",
+      "name": "IPHONE 11",
+      "price": "870",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/10.png",
+      "alt": "IPHONE-10",
+      "name": "IPHONE 10",
+      "price": "880",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/13.png",
+      "alt": "IPHONE-13",
+      "name": "IPHONE 13",
+      "price": "900",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/8.png",
+      "alt": "IPHONE-8",
+      "name": "IPHONE 8",
+      "price": "650",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 7,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/14.png",
+      "alt": "IPHONE-14",
+      "name": "IPHONE 14",
+      "price": "1230",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 8,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/15-2.png",
+      "alt": "IPHONE-15",
+      "name": "IPHONE 15",
+      "price": "1500",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 9,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/13-4.png",
+      "alt": "IPHONE-13",
+      "name": "IPHONE 13",
+      "price": "980",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 10,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w1.png",
+      "alt": "Pink-watch",
+      "name": "Pink watch",
+      "price": "870",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 10,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w2.png",
+      "alt": "Heavy-watch",
+      "name": "Heavy watch",
+      "price": "680",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 12,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w3.png",
+      "alt": "spotted-watch",
+      "name": "spotted watch",
+      "price": "750",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 13,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w2.png",
+      "alt": "Heavy-watch",
+      "name": "Heavy watch",
+      "price": "680",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 14,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w4.png",
+      "alt": "black-watch",
+      "name": "black watch",
+      "price": "650",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
+    },
+    {
+      "id": 15,
+      "url": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/master/assets/react-mobile-shop/Images/w1.png",
+      "alt": "Pink-watch",
+      "name": "Pink watch",
+      "price": "870",
+      "description": "Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.",
+      "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
+      "cartAlt": "Cart"
     }
   ]
 }
