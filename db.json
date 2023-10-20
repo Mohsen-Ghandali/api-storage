@@ -648,5 +648,22 @@
       "url2": "https://raw.githubusercontent.com/Mohsen-Ghandali/api-storage/7d817e68c99760fe1df1753c2eaf9f61d1affff2/assets/react-mobile-shop/Images/cartPrt.svg",
       "cartAlt": "Cart"
     }
-  ]
+  ],
+  "nuxtSlidShow":[
+  {
+    "picture": "لینک تصویر 1",
+    "description": "     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet nam minus ipsa corporis nisi est deleniti expedita, inventore itaque? Nemo soluta eveniet expedita quo, eum ad incidunt fugiat, quia alias in amet ducimus ullam. Quos voluptas laboriosam quaerat, maiores animi dolor error iure, ipsam rem nihil explicabo nam officia?",
+    "time": "2023.10.02"
+  },
+  {
+    "full_picture": "لینک تصویر 2",
+    "description": "     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet nam minus ipsa corporis nisi est deleniti expedita, inventore itaque? Nemo soluta eveniet expedita quo, eum ad incidunt fugiat, quia alias in amet ducimus ullam. Quos voluptas laboriosam quaerat, maiores animi dolor error iure, ipsam rem nihil explicabo nam officia?",
+    "time": "2022.07.25"
+  },
+  {
+    "full_picture": "لینک تصویر 3",
+  "description": "     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet nam minus ipsa corporis nisi est deleniti expedita, inventore itaque? Nemo soluta eveniet expedita quo, eum ad incidunt fugiat, quia alias in amet ducimus ullam. Quos voluptas laboriosam quaerat, maiores animi dolor error iure, ipsam rem nihil explicabo nam officia?",
+    "time": "2021.01.09"
+  }
+]
 }
